@@ -1,0 +1,27 @@
+{
+	"extends": ["airbnb", "airbnb-typescript", "prettier"],
+	"rules": {
+		"react/react-in-jsx-scope": "off",
+		"arrow-body-style": "off",
+		"import/prefer-default-export": "off",
+		"no-console": "off",
+		"react/no-unknown-property": "off",
+		"no-alert": "off",
+		"no-underscore-dangle": "off",
+		"jsx-a11y/click-events-have-key-events": "off",
+		"no-restricted-globals": "off",
+		"jsx-a11y/no-static-element-interactions": "off",
+		"jsx-a11y/no-noninteractive-element-interactions": "off",
+		"jsx-a11y/label-has-associated-control": "off",
+		"react/function-component-definition": [
+			2,
+			{
+				"namedComponents": "arrow-function",
+				"unnamedComponents": "arrow-function"
+			}
+		]
+	},
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	}
+}
